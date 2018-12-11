@@ -1,0 +1,53 @@
+# Information
+title:            Zachary Parsons
+#url:              https://itsuhane.github.io
+#baseurl:          /editorial-jekyll-theme
+
+assets:
+  styles:         /assets/styles
+  fonts:          /assets/fonts
+  scripts:        /assets/scripts
+  images:         /assets/images
+
+author:
+  name:           Zachary
+  url:            https://www.zacharyparsons.co.uk
+  email:          z.g.parsons@outlook.com
+  phone:          (000) 000-0000
+  address:        Surrey
+  address2:       UK
+  twitter:        originalzedders
+  facebook:       facebook
+  instagram:      originalzedders
+  github:         zgparsons
+  #weibo:
+
+# Config for Menu
+menu:
+  hidden:         false  # <-- change to true if you want menu hidden on loaded
+  search:         false
+  miniposts:      true
+  contact:        false
+
+# Disqus integration
+disqus_id:        epipolar # <-- disable by comment out this
+
+defaults:
+  - scope:
+      path:       ""
+      type:       "posts"
+    values:
+      layout:     "post"
+      comment:    "true" # <-- change to false if you want comments off by-default
+      tags:       []
+
+# Dependencies
+markdown:         kramdown
+mathjax:          true
+
+# Permalinks
+permalink:        pretty
+
+# Pagination
+paginate:         6
+paginate_path:    /page-:num/
