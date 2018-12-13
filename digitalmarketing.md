@@ -4,6 +4,7 @@ title: Digital Marketing
 ---
 {% include header_breadcrumb.html %}
 <br>
+<br>
 # Digital Marketing
 
 <p>I am currently a Digital Marketing Apprentice. This page will cover all of the areas which are neccessary for me to learn.<br />
