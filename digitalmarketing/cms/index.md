@@ -7,7 +7,7 @@ breadcrumb: Content Management Systems
 <br>
 <br>
 # Content Management Systems
-<div class = row">
+<div class = "row">
 <div class="6u 12u$(medium)">
 ## What is a Content Management System?
 <p>A content management system is a software application that we use to publish digital content.
