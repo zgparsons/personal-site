@@ -3,7 +3,7 @@ layout: default
 title: Digital Marketing
 breadcrumb: Digital Marketing
 ---
-{% include header_breadcrumb.html %}
+{% include breadcrumbs %}
 <br>
 <br>
 # Digital Marketing
