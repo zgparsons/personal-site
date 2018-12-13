@@ -8,7 +8,7 @@ breadcrumb: Content Management Systems
 <br>
 # Content Management Systems
 
-<img src="https://www.zacharyparsons.co.uk/assets/images/cms.jpg" title="Content Management Systems" alt="Content Management Systems | CMS"></img>
+<img class="image fit" src="https://www.zacharyparsons.co.uk/assets/images/cms.jpg" title="Content Management Systems" alt="Content Management Systems | CMS" />
 
 ## What is a Content Management System?
 <p>A content management system is a software application that we use to publish digital content.
