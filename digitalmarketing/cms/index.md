@@ -10,7 +10,7 @@ breadcrumb: Content Management Systems
 <div class = "row">
 <div class="6u 12u$(medium)">
 
-## What is a Content Management System?
+<h2>What is a Content Management System?</h2>
 <p>A content management system is a software application that we use to publish digital content.
 Content can be added, updated and deleted via the CMS (and typically an easy to use User Interface, or UI) rather than via files.
 Website content will typically include text primarily, and then also embedded graphics, images & photos, videos, audio files, maps,
