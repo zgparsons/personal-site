@@ -14,7 +14,7 @@ breadcrumb: Digital Marketing
 <div class="row">
 <div class="4u 12u$(small)">
 <h3><strong>Knowledge Module One: Principles of <code>coding</code></strong></h3>
-<a href="km1/cms"><p>Content Management Systems</p></a>
+<a href="cms"><p>Content Management Systems</p></a>
 <p>Website Development</p>
 <p>Online Security & Data</p>
 </div>
