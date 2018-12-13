@@ -1,12 +1,8 @@
 ---
 layout: default
 title: Content Management Systems
-crumbtitle: Content Management Systems
 ---
 <br>
-{% include header_breadcrumb.html %}
-
-
 # Content Management Systems
 
 ## What is a Content Management System?
