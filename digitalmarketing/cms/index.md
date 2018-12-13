@@ -9,6 +9,7 @@ breadcrumb: Content Management Systems
 # Content Management Systems
 <div class = "row">
 <div class="6u 12u$(medium)">
+
 ## What is a Content Management System?
 <p>A content management system is a software application that we use to publish digital content.
 Content can be added, updated and deleted via the CMS (and typically an easy to use User Interface, or UI) rather than via files.
@@ -20,12 +21,12 @@ It is used by over 28% of all websites, and 59% of sites known to be using a CMS
 Drupal are two other market leaders. There are many others available too. More recently, and increasingly, some CMS systems also contain
 'Drag and Drop' interfaces. An example of this is Weebly. They can be easier to use for people with less experience in website creation,
 however they can also be a bit limited in the possibilities available.</p>
-<p>Weebly is also a good example of a free (or almost free) CMS. If you are happy for Weebly to host your website (which might include them advertising),
-and if you do not mind having a weebly domain name, rather than a custom one, it is a free service. (More about both website hosting and domain names later on...)</p>
 </div>
 <div class="6u 12u$(medium)">
 <img class="image fit" src="https://www.zacharyparsons.co.uk/assets/images/cms.jpg" title="Content Management Systems" alt="Content Management Systems | CMS" />
 </div>
+<p>Weebly is also a good example of a free (or almost free) CMS. If you are happy for Weebly to host your website (which might include them advertising),
+and if you do not mind having a weebly domain name, rather than a custom one, it is a free service. (More about both website hosting and domain names later on...)</p>
 </div>
 <div class="row">
 <div class="6u 12u$(small)">
