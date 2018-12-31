@@ -21,9 +21,8 @@ breadcrumb: Website Development
   <div class="12u">
     <h2>Relational Databases</h2>
     <p><strong>What is a Database?</strong></p>
-    <p>A database is a set of data which is stored by a computer. This data is usually stored in an organised or logical way, often with the aid of tables that are stored electronically on the computer or a server. Oftentimes there will be many
-      different variables which affect how the data might be read or understood by a user.</p>
-    <p>A simple example of a database would be (dummy data from <a href="https://www.w3schools.com/html/html_tables.asp">here :)</a>):</p>
+    <p>A database is a set of data which is stored by a computer. This data is usually stored in an organised or logical way, often with the aid of tables that are stored electronically on the computer or a server. Oftentimes there will be many different variables which affect how the data might be read or understood by a user (more about this later).</p>
+    <p>A simple example of a database is below: (dummy data from <a href="https://www.w3schools.com/html/html_tables.asp">here :)</a>)</p>
     <table title="Example">
       <tbody>
         <tr>
@@ -67,7 +66,109 @@ breadcrumb: Website Development
 </div>
 <div class="row">
   <div class="12u">
-    <p></p>
+    <p>In the above database we see some typical elements of a <i>flat-file</i> database. It is a series of columns and rows, in one table, organized in a tabular format. The columns are labelled: <i>Company</i> (a company name), <i>Contact</i> (the name of a contact within that company), and <i>Country</i> (the country in which the company, and contact, are based). As mentioned though databases can quickly become a lot more complex than this which is where <i>relational</i> databases come in.</p>
+    <p><strong>What is a Relational Database?</strong></p>
+    <p>When a database begins to use a more complex structure to allow users to identify and access data <i>in relation</i> to other pieces of data in the same database it becomes a relational database. To follow on from the example above, if the person using the database started to meet more than one contact from each company, and they also wanted to start including each contact's job title and/or role it might be helpful for them to begin to seperate out certain pieces of data in order for the information to be more helpful to them.</p>
+    <p>If this person wanted to contact only the marketing departments of each company in their database, but knew that some of their contacts were from the operations (or HR, or any other departments), then being able to seperate out and access only the contacts from marketing departments would be a lot more helpful.</p>
+
+    <table title="Company Key">
+      <tbody>
+        <tr>
+          <th>Company</th>
+          <th>ID</th>
+        </tr>
+        <tr>
+          <td>Alfreds Futterkiste</td>
+          <td>1</td>
+        </tr>
+        <tr>
+          <td>Centro comercial Moctezuma</td>
+          <td>2</td>
+        </tr>
+        <tr>
+          <td>Ernst Handel</td>
+          <td>3</td>
+        </tr>
+        <tr>
+          <td>Island Trading</td>
+          <td>4</td>
+        </tr>
+        <tr>
+          <td>Laughing Bacchus Winecellars</td>
+          <td>5</td>
+        </tr>
+        <tr>
+          <td>Magazzini Alimentari Riuniti</td>
+          <td>6</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <table title="Example">
+      <tbody>
+        <tr>
+          <th>Contacts</th>
+          <th>Department</th>
+          <th>Company ID</th>
+        </tr>
+        <tr>
+          <td>Maria Anders</td>
+          <td>Marketing</td>
+          <td>1</td>
+        </tr>
+        <tr>
+          <td>Francisco Chang</td>
+          <td>HR</td>
+          <td>2</td>
+        </tr>
+        <tr>
+          <td>Roland Mendel</td>
+          <td>Marketing</td>
+          <td>3</td>
+        </tr>
+        <tr>
+          <td>Helen Bennett</td>
+          <td>Marketing</td>
+          <td>4</td>
+        </tr>
+        <tr>
+          <td>Yoshi Tannamuri</td>
+          <td>Operations</td>
+          <td>5</td>
+        </tr>
+        <tr>
+          <td>Giovanni Rovelli</td>
+          <td>Operations</td>
+          <td>6</td>
+        </tr>
+        <tr>
+          <td>Stan Hardy</td>
+          <td>Marketing</td>
+          <td>2</td>
+        </tr>
+        <tr>
+          <td>James John</td>
+          <td>HR</td>
+          <td>6</td>
+        </tr>
+        <tr>
+          <td>John James</td>
+          <td>Marketing</td>
+          <td>4</td>
+        </tr>
+        <tr>
+          <td>Matthew Spark</td>
+          <td>Operations</td>
+          <td>1</td>
+        </tr>
+        <tr>
+          <td>George Orwell</td>
+          <td>Marketing</td>
+          <td>3</td>
+        </tr>
+      </tbody>
+    </table>
+
   </div>
 </div>
 
