@@ -8,7 +8,7 @@ breadcrumb: Digital Marketing
 <br>
 # Digital Marketing
 
-<p>I am currently a Digital Marketing Apprentice. This page will cover all of the areas which are neccessary for me to learn.<br />
+<p>This page aims to cover all of the areas which are neccessary for an entry level Digital Marketer to learn.<br />
   The areas are broken up into Google Analytics and two 'Knowledge Modules', which contain the following:</p>
 
 <div class="row">
@@ -40,7 +40,7 @@ Here is some general information about each section:
 
 ## Knowledge Module One
 
-Knowledge Module One covers the 'Principles of Coding'. This means that it focuses on the tools which are predominantly used by Digital Marketers. Sections of learning in this module include 'Content Management Systems', 'Website Development' and 'Online Security & Data'.
+Knowledge Module One covers the 'Principles of Coding'. This means that it focuses on the tools which are predominantly used by Digital Marketers. Sections in this module include 'Content Management Systems', 'Website Development' and 'Online Security & Data'.
 
 ## Knowledge Module Two
 
@@ -48,4 +48,4 @@ Knowledge Module Two covers the 'Principles of Marketing'. A larger module in sc
 
 ## Google Analytics
 
-Finally, as part of the learning process for Digital Marketers, at least one external course must be taken too. Google Analytics is the clear choice for this, because it is such a highly used, and powerful software. There is a 'Beginners' and an 'Advanced' section to be completed.
+Finally, as part of the learning process for Digital Marketers, Google Analytics is widely considered essential. This is because it is such highly used, and powerful software. There is a 'Beginners' and an 'Advanced' section to be completed.
