@@ -1,9 +1,66 @@
----
-layout: default
----
-<!-- Banner -->
-{% include section/banner.html %}
-<!-- Features -->
-{% include section/projects.html %}
-<!-- Posts -->
-<!-- {% include section/posts-paginate.html %} -->
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Zachary</title>
+    <base target="_blank" rel="noopener noreferrer">
+    <link rel="stylesheet" id="style" href="style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+</head>
+<body>
+    <header>
+        <h1>Zachary</h1>
+        <div class="toggle">
+            <input type="checkbox" id="switch" name="theme" /><label for="switch">Toggle</label>
+        </div>
+    </header>
+    <main>
+        <div class="title">
+            <h2>Projects</h2>
+        </div>
+        <div class="article">
+            <h3>📰 Newz</h3>
+            <p><a href="https://newz.netlify.com">https://newz.netlify.com</a></p>
+            <p>😎 Basic filterable news web app. Utilising <a href="https://newsapi.org/">News API</a>, vanilla css & js, and deployed to Netlify via this <a href="https://github.com/zgparsons/news">Github repository</a>.</p>
+            <p>😃 With help from tutorial by <a href="https://www.youtube.com/watch?v=gcx-3qi7t7c">https://www.youtube.com/watch?v=gcx-3qi7t7c</a></p>
+        </div>
+        <!-- Todo : Add jsdrumz.netlify.com site -->
+        <div class="article">
+            <h3>🥁 Drumz - Javascript30 - One</h3>
+            <p><a href="https://jsdrumz.netlify.com">https://jsdrumz.netlify.com</a></p>
+            <p>😎  A vanilla css & js drum kit - which uses specific key presses for each element of the drumkit. Deployed to Netlify via this <a href="https://github.com/zgparsons/drumz">Github repository</a>.</p>
+            <p>😃 With help from the <a href="https://javascript30.com/">#Javascript30</a> tutorials by <a href="https://twitter.com/wesbos">Wes Bos</a></p>
+        </div>
+    </main>
+    <footer>
+        <div class="social">
+            <p><a href="https://twitter.com/originalzedders"><i class="fab fa-twitter"></i></a></p>
+        </div>  
+        <p>Made by <a href="https://www.zacharyparsons.co.uk" target="">ZP</a> - with ☕</p>
+    </footer>
+    <script>
+
+        var checkbox = document.querySelector('input[name=theme]');
+
+        checkbox.addEventListener('change', function() {
+            if(this.checked) {
+                trans()
+                document.documentElement.setAttribute('data-theme', 'dark')
+            } else {
+                trans()
+                document.documentElement.setAttribute('data-theme', 'light')
+            }
+        })
+
+        let trans = () => {
+            document.documentElement.classList.add('transition');
+            window.setTimeout(() => {
+                document.documentElement.classList.remove('transision')
+            }, 1000);
+        }
+
+    </script>
+</body>
+</html>
