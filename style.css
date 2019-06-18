@@ -207,6 +207,10 @@ header {
     flex-wrap: wrap;
 }
 
+.social a:active {
+  text-decoration: none;
+}
+
  main {
     display: grid;
     grid-gap: 15px;
