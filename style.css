@@ -207,7 +207,7 @@ header {
     flex-wrap: wrap;
 }
 
-.social a {
+.social a:hover {
   text-decoration: none;
 }
 
