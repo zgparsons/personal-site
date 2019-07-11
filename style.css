@@ -244,8 +244,8 @@ input[type=checkbox]{
 label {
 	cursor: pointer;
 	text-indent: -9999px;
-	width: 100px;
-	height: 50px;
+	width: 66px;
+	height: 35px;
 	background: grey;
 	display: block;
 	border-radius: 50px;
@@ -257,8 +257,8 @@ label:after {
 	position: absolute;
 	top: 2px;
 	left: 3px;
-	width: 45px;
-	height: 45px;
+	width: 30px;
+	height: 30px;
 	background: #fff;
 	border-radius: 45px;
 	transition: 0.3s;
