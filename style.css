@@ -224,10 +224,10 @@ html {
   }
 
   header {
-      display: flex;
+      display: grid;
       justify-content: space-between;
       align-items: center;
-      flex-wrap: wrap;
+      grid-template-columns: 50% auto auto;
   }
 
   .social a:hover {
@@ -287,6 +287,7 @@ html {
     text-indent: -9999px;
     width: 66px;
     height: 35px;
+    bottom: 10px;
     background: grey;
     display: block;
     border-radius: 50px;
