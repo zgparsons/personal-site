@@ -5,7 +5,7 @@
  *
  *
  * @zgparsons: Many edits and changes made for my personal site: https://zacharyparsons.co.uk
- * Thanks to Sakura.css for providing a great base and reset!
+ * Thanks to https://oxal.org/ for providing a great base!
  */
 
  
@@ -13,21 +13,21 @@
 /* Body */
 
 html {
-  --bg: #f9f9f9;
+  --bg: #dbe9e9;
   --alt-bg: #e1e1e1;
-  --color-headings: ;
-  --color-text: #4a4a4a;
-  --a: #2c8898;
-  --link-hover: #4a4a4a;
+  --color-headings: #b0d4d0;
+  --color-text: #0f1a19;
+  --a: #008080;
+  --link-hover: #006666;
 }
 
 html[data-theme='dark'] {
-  --bg: #222222;
+  --bg: #1f1515;
   --alt-bg: #4a4a4a;
-  --color-headings: ;
-  --color-text: #c9c9c9;
-  --a: #982c61;
-  --link-hover: #c9c9c9;
+  --color-headings: #a1595f;
+  --color-text: #e1d9d9;
+  --a: #67393d;
+  --link-hover: #81474c;
 }
 
 
@@ -88,7 +88,8 @@ html {
     font-size: 2.35em; }
   
   h2 {
-    font-size: 2.00em; }
+    font-size: 2.00em;
+    margin: 0; }
   
   h3 {
     font-size: 1.75em; }
@@ -103,7 +104,8 @@ html {
     font-size: 1em; }
   
   small, sub, sup {
-    font-size: 75%; }
+    font-size: 75%;
+    line-height: 0.75; }
   
   hr {
     border-color: var(--a); }
@@ -249,8 +251,7 @@ html {
     padding-top: 25px;
     width: 200px;
     position: fixed;
-    height: 100%;
-    overflow: auto;
+    height: 90%;
   }
 
   sidebar ul {
