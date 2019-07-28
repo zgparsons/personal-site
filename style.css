@@ -2,9 +2,13 @@
  * ================
  * Minimal css theme.
  * Project: https://github.com/oxalorg/sakura
+ *
+ *
+ * @zgparsons: Many edits and changes made for my personal site: https://zacharyparsons.co.uk
+ * Thanks to Sakura.css for providing a great base and reset!
  */
 
- /* Variables added for Zachary site: https://zacharyparsons.co.uk
+ 
 
 /* Body */
 
@@ -42,12 +46,13 @@ html {
   
   @media (max-width: 684px) {
     body {
-      font-size: 1.53rem; }
-    main {
-      margin-left: 0 !important;
+      font-size: 1.53rem;
     }
-    footer {
-      margin-left: 0 !important;
+    body main {
+      margin-left: 0px;
+    }
+    body footer {
+      margin-left: 0px;
     }
     sidebar {
       display: none;
@@ -56,11 +61,11 @@ html {
   @media (max-width: 382px) {
     body {
       font-size: 1.35rem; }
-    main {
-      margin-left: 0 !important;
+    body main {
+      margin-left: 0px;
     }
-    footer {
-      margin-left: 0 !important;
+    body footer {
+      margin-left: 0px;
     }
     sidebar {
       display: none;
@@ -206,161 +211,162 @@ html {
     font-weight: 600; }
 
 
-    /* Additional Styles below this point */
+/* Additional Styles below this point */
 
-body {
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-weight: 300;
-}
+  body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+      font-weight: 300;
+  }
 
-h1 {
-    text-transform: uppercase;
-    font-weight: 300;
-}
+  h1 {
+      text-transform: uppercase;
+      font-weight: 300;
+  }
 
-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-wrap: wrap;
-}
+  header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+  }
 
-.social a:hover {
-  text-decoration: none;
-}
+  .social a:hover {
+    text-decoration: none;
+  }
 
-main {
-    display: grid;
-    grid-gap: 15px;
-    grid-template-columns: 1fr;
-    grid-auto-rows: max-content;
-    grid-auto-flow: row dense;
-    justify-items: stretch;
+  main {
+      display: grid;
+      grid-gap: 15px;
+      grid-template-columns: 1fr;
+      grid-auto-rows: max-content;
+      grid-auto-flow: row dense;
+      justify-items: stretch;
+      margin-left: 200px;
+  }
+
+  sidebar {
+    margin: 0;
+    padding-top: 25px;
+    width: 200px;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+  }
+
+  sidebar ul {
+    padding-right: 1.4em;
+  }
+
+  footer {
     margin-left: 200px;
-}
+  }
 
-sidebar {
-  margin: 0;
-  padding: 0;
-  width: 200px;
-  position: fixed;
-  height: 100%;
-  overflow: auto;
-}
+  h2 {
+      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
 
-sidebar ul {
-  padding-right: 1.4em;
-}
+  .article h3 {
+      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
 
-footer {
-  margin-left: 200px;
-}
+  img {
+      height: auto;
+      width: 100%;
+  }
 
-h2 {
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-}
+  /* Toggle styles - edited but influenced by https://codepen.io/mburnette/pen/LxNxNg */
 
-.article h3 {
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-}
+  input[type=checkbox]{
+    height: 0;
+    width: 0;
+    visibility: hidden;
+  }
 
-img {
-    height: auto;
-    width: 100%;
-}
+  .switch {
+    cursor: pointer;
+    text-indent: -9999px;
+    width: 66px;
+    height: 35px;
+    background: grey;
+    display: block;
+    border-radius: 50px;
+    position: relative;
+  }
 
-/* Toggle styles - https://codepen.io/mburnette/pen/LxNxNg */
+  .switch:after {
+    content: '';
+    position: absolute;
+    top: 2px;
+    left: 3px;
+    width: 30px;
+    height: 30px;
+    background: #fff;
+    border-radius: 45px;
+    transition: 0.3s;
+  }
 
-input[type=checkbox]{
-	height: 0;
-	width: 0;
-	visibility: hidden;
-}
+  input:checked + label {
+    background: var(--a);
+  }
 
-.switch {
-	cursor: pointer;
-	text-indent: -9999px;
-	width: 66px;
-	height: 35px;
-	background: grey;
-	display: block;
-	border-radius: 50px;
-	position: relative;
-}
+  input:checked + label:after {
+    left: calc(100% - 2px);
+    transform: translateX(-100%);
+  }
 
-.switch:after {
-	content: '';
-	position: absolute;
-	top: 2px;
-	left: 3px;
-	width: 30px;
-	height: 30px;
-	background: #fff;
-	border-radius: 45px;
-	transition: 0.3s;
-}
+  label:active:after {
+    width: 100px;
+  }
 
-input:checked + label {
-	background: var(--a);
-}
+  // centering
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
 
-input:checked + label:after {
-	left: calc(100% - 2px);
-	transform: translateX(-100%);
-}
+  html.transition,
+  html.transition *,
+  html.transition *:before,
+  html.transition *:after {
+    transition: all 750ms !important;
+    transition-delay: 0 !important;
+  }
 
-label:active:after {
-	width: 100px;
-}
+  /* Progress Bar styles */
+  .progress {
+    list-style: none;
+    font-size: 1rem;
+  }
 
-// centering
-body {
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	height: 100vh;
-}
+  progress[value] {
+    /* Reset the default appearance */
+    -webkit-appearance: none;
+    appearance: none;
+  }
 
-html.transition,
-html.transition *,
-html.transition *:before,
-html.transition *:after {
-  transition: all 750ms !important;
-  transition-delay: 0 !important;
-}
-
-.progress {
-  list-style: none;
-  font-size: 1rem;
-}
-
-progress[value] {
-  /* Reset the default appearance */
-  -webkit-appearance: none;
-   appearance: none;
-}
-
-progress {
-  background-color: var(--alt-bg);
-  border: 0;
-  height: 18px;
-  border-radius: 9px;
-}
-progress::-webkit-progress-bar {
-  background-color: var(--a);
-  border: 0;
-  height: 18px;
-  border-radius: 9px;
-}
-progress::-webkit-progress-value {
-  background-color: var(--a);
-  border: 0;
-  height: 18px;
-  border-radius: 9px;
-}
-progress::-moz-progress-bar {
-  background-color: var(--a);
-  border: 0;
-  height: 18px;
-  border-radius: 9px;
-}
+  progress {
+    background-color: var(--alt-bg);
+    border: 0;
+    height: 18px;
+    border-radius: 9px;
+  }
+  progress::-webkit-progress-bar {
+    background-color: var(--a);
+    border: 0;
+    height: 18px;
+    border-radius: 9px;
+  }
+  progress::-webkit-progress-value {
+    background-color: var(--a);
+    border: 0;
+    height: 18px;
+    border-radius: 9px;
+  }
+  progress::-moz-progress-bar {
+    background-color: var(--a);
+    border: 0;
+    height: 18px;
+    border-radius: 9px;
+  }
