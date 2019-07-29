@@ -361,19 +361,19 @@ html {
     border-radius: 9px;
   }
   progress::-webkit-progress-bar {
-    background-color: var(--a);
+    background-color: var(--alt-bg);
     border: 0;
     height: 18px;
     border-radius: 9px;
   }
   progress::-webkit-progress-value {
-    background-color: var(--a);
+    background-color: var(--alt-bg);
     border: 0;
     height: 18px;
     border-radius: 9px;
   }
   progress::-moz-progress-bar {
-    background-color: var(--a);
+    background-color: var(--alt-bg);
     border: 0;
     height: 18px;
     border-radius: 9px;
