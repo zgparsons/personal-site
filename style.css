@@ -355,7 +355,7 @@ html {
   }
 
   progress[value] {
-    background-color: var(--a);
+    background-color: var(--alt-bg);
     border: 0;
     height: 18px;
     border-radius: 9px;
