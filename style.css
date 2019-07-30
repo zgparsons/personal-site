@@ -75,6 +75,11 @@ html {
     sidebar {
       overflow: auto;
     }
+
+    sidebar label {
+      font-size: 1.2rem;
+    }
+
   }
   
   h1, h2, h3, h4, h5, h6 {
@@ -250,6 +255,7 @@ html {
       grid-auto-flow: row dense;
       justify-items: stretch;
       margin-left: 200px;
+      padding: 0 10px;
   }
 
   sidebar {
@@ -262,6 +268,10 @@ html {
 
   sidebar ul {
     padding-right: 1.4em;
+  }
+
+  sidebar label {
+    font-size: 1.5rem;
   }
 
   footer {
@@ -361,7 +371,7 @@ html {
     border-radius: 9px;
   }
   progress[value]::-webkit-progress-bar {
-    background-color: var(--a);
+    background-color: var(--alt-bg);
     border: 0;
     height: 18px;
     border-radius: 9px;
