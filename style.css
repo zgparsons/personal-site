@@ -13,7 +13,7 @@
 /* Body */
 
 :root {
-  --duration: 1s;
+  --duration: 500ms;
   --timing: ease-in-out;
 }
 
@@ -346,7 +346,6 @@ html {
   .transition body:before,
   .transition body:after {
     transition: all var(--duration) var(--timing);
-    transition: all 450ms 0s !important;
     transition-delay: 0s;
   }
 
