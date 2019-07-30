@@ -12,6 +12,11 @@
 
 /* Body */
 
+:root {
+  --duration: 1s;
+  --timing: ease-in-out;
+}
+
 html {
   --bg: #dbe9e9;
   --alt-bg: #e1e1e1;
@@ -305,7 +310,7 @@ html {
     width: 66px;
     height: 35px;
     bottom: 10px;
-    background: grey;
+    background: var(--a);
     display: block;
     border-radius: 50px;
     position: relative;
@@ -320,7 +325,7 @@ html {
     height: 30px;
     background: #fff;
     border-radius: 45px;
-    transition: 0.3s;
+    transition: 0.2s;
   }
 
   input:checked + label {
@@ -333,23 +338,16 @@ html {
   }
 
   label:active:after {
-    width: 100px;
+    width: 60px;
   }
 
-  // centering
-  body {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-  }
-
-  html.transition,
-  html.transition *,
-  html.transition *:before,
-  html.transition *:after {
-    transition: all 750ms !important;
-    transition-delay: 0 !important;
+  .transition,
+  .transition body,
+  .transition body:before,
+  .transition body:after {
+    transition: all var(--duration) var(--timing);
+    transition: all 450ms 0s !important;
+    transition-delay: 0s;
   }
 
   /* Progress Bar styles */
