@@ -241,15 +241,17 @@ html {
       font-weight: 300;
   }
 
+  .social a:hover {
+    text-decoration: none;
+  }
+
+  /* Grid */
+
   header {
       display: grid;
       justify-content: space-between;
       align-items: center;
       grid-template-columns: 50% auto auto;
-  }
-
-  .social a:hover {
-    text-decoration: none;
   }
 
   main {
@@ -271,16 +273,16 @@ html {
     height: 90%;
   }
 
+  footer {
+    margin-left: 200px;
+  }
+
   sidebar ul {
     padding-right: 1.4em;
   }
 
   sidebar label {
     font-size: 1.5rem;
-  }
-
-  footer {
-    margin-left: 200px;
   }
 
   h2 {
